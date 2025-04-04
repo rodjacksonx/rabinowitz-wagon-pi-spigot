@@ -1,2 +1,19 @@
 # rabinowitz-wagon-pi-spigot
-A JavaScript implementation of the Rabinowitz-Wagon Pi spigot algorithm, written for clarity over efficiency
+
+A JavaScript implementation of the 1995 Rabinowitz-Wagon Pi spigot algorithm, written for clarity over efficiency
+
+This code provides a single function, generatePi(), that takes an integer number, and returns an array of integers, each being a digit of pi. For example:
+
+    console.log(generatePi(2))
+
+will display: [ 3, 1, 4 ]
+
+This algorithm has the advantage of not requiring floating point numbers or big integers, but the disadvantage of requiring we set aside upfront storage space proportional to the number of digits being asked for.
+
+The code was written based on both the Rabinowitz-Wagon paper describing the algorithm:
+
+    https://www.stanleyrabinowitz.com/bilbiography/spigot.pdf
+
+and an excellent secondary description of how the algorithm works from this older (but as of 2025, still safe) website here:
+
+    https://pi314.net/eng/goutte.php
