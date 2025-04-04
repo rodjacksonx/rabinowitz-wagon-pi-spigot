@@ -14,13 +14,13 @@ This algorithm has the advantage of not requiring floating point numbers or big 
 
 The code was written based on both the Rabinowitz-Wagon paper describing the algorithm:
 
-    [A Spigot Algorithm for the Digits of Pi](https://www.stanleyrabinowitz.com/bilbiography/spigot.pdf)
-    (https://www.cs.williams.edu/~heeringa/classes/cs135/s15/readings/spigot.pdf)
+    https://www.stanleyrabinowitz.com/bilbiography/spigot.pdf
+    https://www.cs.williams.edu/~heeringa/classes/cs135/s15/readings/spigot.pdf
 
 and an excellent secondary description of how the algorithm works from this older (but as of 2025, still safe) website here:
 
-    (https://pi314.net/eng/goutte.php)
+    https://pi314.net/eng/goutte.php
 
 Further mathematical analysis of the algorithm, its mathematical foundation and a few (rather compact) coded implementations can be found here:
 
-    (https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/spigot.pdf)
+    https://www.cs.ox.ac.uk/people/jeremy.gibbons/publications/spigot.pdf
