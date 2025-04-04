@@ -46,8 +46,8 @@ function generatePi(maxDigits)
 
       sum = remainders[j] + carry;
       b = base[j];
-      q = Math.floor(n/b);
-      r = n % b;
+      q = Math.floor(sum/b);
+      r = sum % b;
 
       remainders[j] = r;
       carry = q * j;
@@ -56,9 +56,9 @@ function generatePi(maxDigits)
     // for the last step, we convert to base 10
     // to finally extract the next pi digit (and
     // store the remainder for the next round)
-    n = remainders[0] + carry;
-    q = Math.floor(n/10);
-    r = n % 10;
+    sum = remainders[0] + carry;
+    q = Math.floor(sum/10);
+    r = sum % 10;
     digit = q;
     remainders[0] = r;
 
